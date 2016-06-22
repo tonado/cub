@@ -15,8 +15,9 @@ CUB_NS_END
 
 enum CubStatus : CUB_NS::Status
 {
-	CUB_SUCCESS = 0,
-	CUB_FAILURE = CUB_NS::INVALID_U32
+	CUB_SUCCESS   = 0,
+	CUB_FATAL_BUG = 0xFFFFFFFE,
+	CUB_FAILURE   = CUB_NS::INVALID_U32
 };
 
 #define __CUB_FAILED(result)   (result != CUB_SUCCESS)

@@ -108,7 +108,7 @@ do {                                        \
 
 #define __CUB_EXPECT_SUCC_CALL(call, action)\
 do {                                            \
-    Status __status = call;                     \
+    CUB_NS::Status __status = call;             \
     if (__CUB_FAILED(__status))                 \
     {                                           \
         __CUB_WARNING_CALL(call, __status);     \
@@ -137,7 +137,7 @@ do {                                            \
 
 #define __CUB_ASSERT_SUCC_CALL(call, action)    \
 do {                                            \
-    Status __status = call;                     \
+    CUB_NS::Status __status = call;             \
     if (__CUB_FAILED(__status))                 \
     {                                           \
         __CUB_FAIL_CALL(call, __status);        \
@@ -168,7 +168,7 @@ do {                                            \
 
 #define __CUB_ASSERT_SUCC_CALL_FINALLY(call, action, returnAction)  \
 do {                                                \
-    Status __status = call;                         \
+    CUB_NS::Status __status = call;                 \
     if (__CUB_FAILED(__status))                     \
     {                                               \
         __CUB_FAIL_CALL(call, __status);            \
@@ -183,7 +183,7 @@ do {                                                \
 //////////////////////////////////////////////////////////////////////////
 #define __CUB_ASSERT_NO_REAL_FAIL(call, action)      \
 do {                                                 \
-    Status __status = call;                          \
+    CUB_NS::Status __status = call;                  \
     if(__status == CUB_NOTHING_CHANGED)              \
     {                                                \
         return CUB_SUCCESS;                          \
