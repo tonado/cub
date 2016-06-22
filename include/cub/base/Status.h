@@ -13,12 +13,13 @@ const U32 INVALID_U32 = 0xFFFFFFFF;
 
 CUB_NS_END
 
-
-const CUB_NS::Status CUB_SUCCESS = 0;
-const CUB_NS::Status CUB_FAILURE = CUB_NS::INVALID_U32;
+enum CubStatus : CUB_NS::Status
+{
+	CUB_SUCCESS = 0,
+	CUB_FAILURE = CUB_NS::INVALID_U32
+};
 
 #define __CUB_FAILED(result)   (result != CUB_SUCCESS)
 #define __CUB_SUCCESS(result)  (result == CUB_SUCCESS)
-
 
 #endif
