@@ -448,20 +448,20 @@ private:
 
 /////////////////////////////////////////////////////////////
 #define LIST_FOREACH_FROM(type, i, from, items) \
-   for(typename List<type>::Iterator i=from; i != items.end(); ++i)
+   for(typename CUB_NS::List<type>::Iterator i=from; i != items.end(); ++i)
 
 #define LIST_FOREACH_FROM_R(type, i, from, items) \
-   for(typename List<type>::ReverseIterator i=from; i != items.rend(); ++i)
+   for(typename CUB_NS::List<type>::ReverseIterator i=from; i != items.rend(); ++i)
 
 #define LIST_FOREACH(type, i, items) \
    LIST_FOREACH_FROM(type, i, items.begin(), items)
 
 #define LIST_FOREACH_R(type, i, items) \
-   for(typename List<type>::ReverseIterator i=items.rbegin(); i != items.rend(); ++i)
+   for(typename CUB_NS::List<type>::ReverseIterator i=items.rbegin(); i != items.rend(); ++i)
 
 /////////////////////////////////////////////////////////////////////////
 #define LIST_FOREACH_FROM_SAFE(type, i, j, from, items) \
-   for(typename List<type>::Iterator i=from, j=++from; i != items.end(); i=j, ++j)
+   for(typename CUB_NS::List<type>::Iterator i=from, j=++from; i != items.end(); i=j, ++j)
 
 #define LIST_FOREACH_SAFE(type, i, j, items) \
    LIST_FOREACH_FROM_SAFE(type, i, j, items.begin(), items)
