@@ -25,7 +25,7 @@ struct ObjectAllocator
     {
         if (freeCounter < 0 || freeCounter > MAX_NUM)
         {
-            return INVALID_U16;
+            return CUB_INVALID_U16;
         }
 
         return freeCounter;

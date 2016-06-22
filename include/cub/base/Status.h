@@ -8,16 +8,13 @@ CUB_NS_BEGIN
 
 typedef U32 Status;
 
-const U16 INVALID_U16 = 0xFFFF;
-const U32 INVALID_U32 = 0xFFFFFFFF;
-
 CUB_NS_END
 
-enum CubStatus : CUB_NS::Status
-{
-	CUB_SUCCESS = 0,
-	CUB_FAILURE = CUB_NS::INVALID_U32
-};
+const CUB_NS::U16 CUB_INVALID_U16 = 0xFFFF;
+const CUB_NS::U32 CUB_INVALID_U32 = 0xFFFFFFFF;
+
+const CUB_NS::Status CUB_SUCCESS = 0;
+const CUB_NS::Status CUB_FAILURE = CUB_INVALID_U32;
 
 #define __CUB_FAILED(result)   (result != CUB_SUCCESS)
 #define __CUB_SUCCESS(result)  (result == CUB_SUCCESS)
