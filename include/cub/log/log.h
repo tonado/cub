@@ -1,6 +1,10 @@
 #ifndef H38247538_297F_4A80_94D3_8A289788461B
 #define H38247538_297F_4A80_94D3_8A289788461B
 
+#include <cub/cub.h>
+
+CUB_NS_BEGIN
+
 #define DECl_LOG(level) \
 extern void log_##level(const char* file, unsigned int line, const char* fmt, ...)
 
@@ -11,7 +15,7 @@ DECl_LOG(info);
 DECl_LOG(warn);
 
 #define __LOG_TITLE(level, fmt, ...)                     \
-log_##level(__FILE__, __LINE__, fmt, ##__VA_ARGS__);
+cub::log_##level(__FILE__, __LINE__, fmt, ##__VA_ARGS__);
 
 
 #define FATAL_LOG(fmt, ...) \
@@ -28,5 +32,7 @@ log_##level(__FILE__, __LINE__, fmt, ##__VA_ARGS__);
 
 #define DBG_LOG(fmt, ...) \
     __LOG_TITLE(debug, fmt, ##__VA_ARGS__)
+
+CUB_NS_END
 
 #endif
