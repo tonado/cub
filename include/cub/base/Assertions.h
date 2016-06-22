@@ -5,9 +5,8 @@
 #include <cub/log/log.h>
 #include <cub/base/NullPtr.h>
 
-CUB_NS_BEGIN
 
-#define __CUB_FAILED_BOOL_ACTION      return false
+#define __CUB_FAILED_BOOL_ACTION      return false;
 #define __CUB_FAILED_STATUS_ACTION    return CUB_FAILURE;
 #define __CUB_STATUS_ACTION           return __status;
 #define __CUB_VOID_ACTION             return;
@@ -243,6 +242,5 @@ do {                                                 \
 #define CUB_ASSERT_VALID_PTR_NIL_FINALLY(ptr, action)         \
     __CUB_ASSERT_VALID_PTR_FINALLY(ptr, action, __CUB_NIL_ACTION)
 
-CUB_NS_END
 
 #endif
