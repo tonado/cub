@@ -1,5 +1,5 @@
 #include <cut/cut.hpp>
-#include <cub/ctnr/number/RingNumber.h>
+#include <cub/repo/number/RingNumber.h>
 
 USING_CUM_NS
 USING_CUB_NS

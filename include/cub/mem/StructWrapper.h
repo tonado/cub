@@ -1,5 +1,5 @@
-#ifndef CUB_STRUCT_WRAPPER__H__
-#define CUB_STRUCT_WRAPPER__H__
+#ifndef H38247538_297F_4A80_94D3_8A28978846EF
+#define H38247538_297F_4A80_94D3_8A28978846EF
 
 #include <cub/cub.h>
 #include <cub/base/StaticAssert.h>

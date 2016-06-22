@@ -1,5 +1,5 @@
-#ifndef CUB_MEMORY_PLAIN_TRANS_DATA_H
-#define CUB_MEMORY_PLAIN_TRANS_DATA_H
+#ifndef H38247538_297F_4A80_94D3_8A289788466F
+#define H38247538_297F_4A80_94D3_8A289788466F
 
 #include <cub/mem/TransData.h>
 #include <memory.h>

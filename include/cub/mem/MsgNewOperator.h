@@ -1,5 +1,5 @@
-#ifndef CUB_MEMORY_MSG_NEW_H
-#define CUB_MEMORY_MSG_NEW_H
+#ifndef H38247538_297F_4A80_94D3_8A289788464D
+#define H38247538_297F_4A80_94D3_8A289788464D
 
 #include <cub/base/Assertions.h>
 

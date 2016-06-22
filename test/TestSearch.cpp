@@ -1,6 +1,6 @@
 #include <cut/cut.hpp>
 #include <cub/algo/search.h>
-#include <cub/ctnr/array/ArraySize.h>
+#include <cub/repo/array/ArraySize.h>
 
 USING_CUM_NS
 USING_CUB_NS

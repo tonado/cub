@@ -1,5 +1,5 @@
-#ifndef CUB_OBJECT_ALLOCATOR_H
-#define CUB_OBJECT_ALLOCATOR_H
+#ifndef H38247538_297F_4A80_94D3_8A289788465E
+#define H38247538_297F_4A80_94D3_8A289788465E
 
 #include <cub/base/BaseTypes.h>
 #include <cub/base/Assertions.h>

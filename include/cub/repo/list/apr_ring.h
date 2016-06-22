@@ -5,8 +5,8 @@
  *      Author: arthur
  */
 
-#ifndef APR_RING_H_
-#define APR_RING_H_
+#ifndef H38247538_297F_4A80_94D3_8A2EF78846EF
+#define H38247538_297F_4A80_94D3_8A2EF78846EF
 
 #include <stddef.h>
 

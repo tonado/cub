@@ -1,5 +1,5 @@
-#ifndef CUB_MEMORY_SMART_PTR_H
-#define CUB_MEMORY_SMART_PTR_H
+#ifndef H38247538_297F_4A80_94D3_8A28978E46FA
+#define H38247538_297F_4A80_94D3_8A28978E46FA
 
 #include <cub/dci/Role.h>
 #include <cub/mem/SharedObject.h>

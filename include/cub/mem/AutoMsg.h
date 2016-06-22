@@ -1,5 +1,5 @@
-#ifndef CUB_MEMORY_AUTO_MSG_H
-#define CUB_MEMORY_AUTO_MSG_H
+#ifndef H38247538_297F_4A80_94D3_8A289788462A
+#define H38247538_297F_4A80_94D3_8A289788462A
 
 #include <cub/mem/MsgNewOperator.h>
 #include <cub/mem/MsgAllocator.h>

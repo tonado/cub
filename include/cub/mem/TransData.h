@@ -1,5 +1,5 @@
-#ifndef CUB_MEMORY_TRANS_DATA_H
-#define CUB_MEMORY_TRANS_DATA_H
+#ifndef H38247538_297F_4A80_94D3_8A289788EFEF
+#define H38247538_297F_4A80_94D3_8A289788EFEF
 
 #include <cub/base/Status.h>
 #include <cub/base/Uncloneable.h>

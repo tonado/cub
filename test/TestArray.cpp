@@ -1,5 +1,5 @@
 #include <cut/cut.hpp>
-#include <cub/ctnr/array/Array.h>
+#include <cub/repo/array/Array.h>
 
 USING_CUM_NS
 USING_CUB_NS

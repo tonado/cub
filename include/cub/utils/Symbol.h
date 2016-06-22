@@ -1,5 +1,5 @@
-#ifndef _QHDGA6BWYYSJVRGHQ4OVYNFAJPUKWNH9188DUQXLQHRJF6
-#define _QHDGA6BWYYSJVRGHQ4OVYNFAJPUKWNH9188DUQXLQHRJF6
+#ifndef H38247538_297F_5E80_94D3_8A28246846EF
+#define H38247538_297F_5E80_94D3_8A28246846EF
 
 ////////////////////////////////////////////////////////////////////////////////
 #define __DO_STRINGIZE( symbol ) #symbol

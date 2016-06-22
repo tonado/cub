@@ -1,11 +1,11 @@
 #ifndef HF41FC0CC_15A0_4F16_92AE_15D0759215A8
 #define HF41FC0CC_15A0_4F16_92AE_15D0759215A8
 
-#include <cub/ctnr/map/HashFn.h>
-#include <cub/ctnr/map/EqualFn.h>
-#include <cub/ctnr/map/MapVisitor.h>
-#include <cub/ctnr/list/List.h>
-#include <cub/ctnr/list/ListElem.h>
+#include <cub/repo/map/HashFn.h>
+#include <cub/repo/map/EqualFn.h>
+#include <cub/repo/map/MapVisitor.h>
+#include <cub/repo/list/List.h>
+#include <cub/repo/list/ListElem.h>
 #include <cub/base/StaticAssert.h>
 #include <cub/base/EqHelper.h>
 #include <cub/mem/ObjectAllocator.h>
